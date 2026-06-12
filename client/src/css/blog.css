@@ -1,0 +1,11 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    background-color:olivedrab;
+}
+h1,h2{
+    color:white;
+    padding:5px;
+}
