@@ -69,9 +69,9 @@ const Register = () => {
 
     try {
       await axios.post(
-        "http://localhost:9000/api/register",
-        formData
-      );
+  "https://internship-project-1-eb7s.onrender.com/api/register",
+  formData
+);
 
       toast.success("Employee Registered Successfully");
 

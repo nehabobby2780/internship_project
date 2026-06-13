@@ -68,10 +68,9 @@ function AdminRegister() {
 
     try {
       await axios.post(
-        "http://localhost:5000/api/admin/register",
-        formData
-      );
-
+  "https://internship-project-1-eb7s.onrender.com/api/admin/register",
+  formData
+);
       toast.success("Admin Registered Successfully!");
 
       setFormData({
