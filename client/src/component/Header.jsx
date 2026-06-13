@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { FaUsers, FaBars, FaTimes } from "react-icons/fa";
-import "../css/header.css";
+import "../css/Header.css";
 
 function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
